@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuideActivity" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/guidePager"
+        android:layout_width="fill_parent"
+        android:layout_margin="0dp"
+        android:layout_height="match_parent" >
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/dotLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:src="@drawable/guide_dot_selector" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:src="@drawable/guide_dot_selector" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:src="@drawable/guide_dot_selector" />
+
+    </LinearLayout>
+    <Button 
+			    android:id="@+id/enterButton"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_above="@id/dotLayout"
+			    android:text="立刻体验"
+			    android:padding="10dp"
+			    android:textColor="#ffffff"
+			    android:background="@drawable/btn_blue_n"
+			    android:layout_centerHorizontal="true"
+			    android:visibility="gone"
+			    />
+</RelativeLayout>

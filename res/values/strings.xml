@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">菜谱小当家</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_guide">GuideActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="recipe">菜谱</string>
+    <string name="title_activity_recipe">RecipeActivity</string>
+    <string name="settings">设置</string>
+    <string name="collection">收藏</string>
+    <string name="discover">发现</string>
+    <string name="title_activity_recipe_list">RecipeListActivity</string>
+    <string name="title_activity_food">FoodActivity</string>
+    <string name="title_activity_id_list">IdListActivity</string>
+    <string name="title_activity_collect_recipe">CollectRecipeActivity</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="title_activity_submit">SubmitActivity</string>
+
+</resources>

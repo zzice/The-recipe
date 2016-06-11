@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    android:clipToPadding="true"
+    tools:context=".MainFragmentActivity" >
+
+    <LinearLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/MenuBar"
+        android:orientation="vertical" >
+</LinearLayout>
+    <RadioGroup
+        android:id="@+id/MenuBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="2dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/discoverButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:padding="5dp"
+            android:drawableTop="@drawable/rab_dis_checked"
+            android:gravity="center_horizontal"
+            android:textColor="@color/radio_text_color"
+            android:textSize="@dimen/radio_text_size"
+            android:drawablePadding="3dp"
+            android:text="@string/discover" />
+
+        <RadioButton
+            android:id="@+id/recipeButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/rab_rec_checked"
+            android:padding="5dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/radio_text_color"
+            android:textSize="@dimen/radio_text_size"
+            android:drawablePadding="3dp"
+            android:text="@string/recipe" />
+
+        <RadioButton
+            android:id="@+id/collectionButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:padding="5dp"
+            android:drawableTop="@drawable/rab_col_checked"
+            android:gravity="center_horizontal"
+            android:textColor="@color/radio_text_color"
+             android:textSize="@dimen/radio_text_size"
+            android:drawablePadding="3dp"
+            android:text="@string/collection" />
+
+        <RadioButton
+            android:id="@+id/settingsButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:padding="5dp"
+            android:drawableTop="@drawable/rab_set_checked"
+            android:gravity="center_horizontal"
+            android:textColor="@color/radio_text_color"
+             android:textSize="@dimen/radio_text_size"
+            android:drawablePadding="3dp"
+            android:text="@string/settings" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/MenuBar"
+        android:background="@drawable/colorline" />
+
+    
+
+</RelativeLayout>
