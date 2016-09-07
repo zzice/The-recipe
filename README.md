@@ -1,5 +1,5 @@
 # 菜谱小当家开源代码 #
-上线地址：[http://http://www.wandoujia.com/apps/com.ice.cook](http://http://www.wandoujia.com/apps/com.ice.cook "豌豆荚")
+上线地址：[http://www.wandoujia.com/apps/com.ice.cook](http://www.wandoujia.com/apps/com.ice.cook "豌豆荚")
 
 应用描述：菜谱小当家是以健康食谱为主题的菜谱App小应用，操作起来简单快捷。不要忽略你的身体的健康；饮食，动作，均须有节。下载此款应用，随时随地让健康跟着走。
 
